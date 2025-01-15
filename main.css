@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .manue-hover {
+    @apply md:p-3 hover:text-[#F44335] transition-all duration-300 sm:font-medium;
+  }
+  .skill_tag {
+    @apply text-xs border border-[#F44335] px-2.5 py-1.5 rounded-full hover:bg-[#F44335] hover:text-white hover:font-bold transition-all duration-500 hover:scale-105;
+  }
+  .main-section {
+    @apply container mx-auto px-4 md:px-8 py-4 md:py-8 grid content-center grid-cols-12 gap-4;
+  }
+  .sub-section {
+    @apply shadow-md shadow-black/30 bg-white md:col-span-6 col-span-12 border px-4 py-6 rounded-lg mx-auto;
+  }
+  .course-btn {
+    @apply text-xs text-[#2D3142] hover:bg-[#00FF84] border px-4 py-2 rounded-full hover:translate-x-1 hover:translate-y-1 border-[#00FF84] font-bold transition-all duration-300;
+  }
+}
