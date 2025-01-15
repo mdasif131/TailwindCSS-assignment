@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="html-tag">
 
 <head>
   <meta charset="UTF-8">
@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="main.css">
 </head>
 
-<body class="font-fontPlus bg-[#FAFAFA]">
+<body class="font-fontPlus bg-[#FAFAFA] dark:bg-black">
   <!--Header Section-->
-  <header class="container mx-auto flex justify-between items-center mt-2 bg-white">
+  <header
+    class="container mx-auto flex justify-between items-center mt-2 bg-white dark:bg-gray-800 dark:text-white px-4 py-4">
     <!-- logo -->
     <div>
-      <img src="assets/Header-logo.png" alt="">
+      <img src="assets/Header-logo.png" alt="" class="dark:bg-white dark:px-4 dark:py-1 dark:rounded-md">
     </div>
     <!--Manue bar-->
     <nav>
@@ -29,9 +30,9 @@
       <button
         class="text-xs md:text-base bg-[#F44335] py-1 md:py-3 px-3 md:px-6 rounded-md font-semibold text-white hover:bg-slate-600 hover:scale-105 duration-300"><a
           href="#">Register Interest</a></button>
-      <button>
+      <button id="switch">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="size-6">
+          class="size-6 dark:stroke-white hover:scale-105 duration-300 transition">
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
         </svg>
@@ -43,24 +44,25 @@
   <section class="container mx-auto grid gap-8 grid-cols-2 px-6 md:px-8 py-8 mobile:relative mobile: ">
     <!-- banner set 1 -->
     <section class="md:space-y-7 space-y-3 md:col-span-1 col-span-2">
-      <div class="flex items-center gap-1">
+      <div class="flex items-center gap-1 dark:text-white">
         <span>Discover </span>
         <span class="text-[#F44335] font-bold">-</span>
         <span>Interact </span>
         <span class="text-[#F44335] font-bold">-</span>
         <span>Engage</span>
       </div>
-      <div class="flex flex-col space-y-1 md:space-y-2">
+      <div class="flex flex-col space-y-1 md:space-y-2 dark:text-white">
         <span class="font-extrabold text-2xl md:text-5xl">Google</span>
         <span class="text-[#F44335] underline font-extrabold text-2xl md:text-5xl">IT Support</span>
         <span class="font-extrabold text-2xl md:text-5xl">Certificate</span>
       </div>
-      <p class="">This is your path to a career in IT. In this program, you’ll learn in-demand skills with
+      <p class="dark:text-white">This is your path to a career in IT. In this program, you’ll learn in-demand skills
+        with
         no degree or
         experience
         required.</p>
 
-      <div class="flex space-x-2 items-center mobile:flex-wrapc">
+      <div class="flex space-x-2 items-center mobile:flex-wrapc dark:text-white">
         <div class="text-center">
           <span class="text-[#00FF84] font-extrabold text-xl">438</span><br><span class="font-semibold">Videos</span>
         </div>
@@ -92,19 +94,20 @@
     </section>
   </section>
   <!--logo Section-->
-  <section class="container mx-auto w-full grid grid-cols-12 items-center space-x-3 bg-white
-  mb-3 gap-4">
+  <section
+    class="container mx-auto w-full grid grid-cols-12 items-center space-x-3 bg-white mb-3 gap-4 dark:bg-gray-900">
     <div class=" px-4 md:col-span-3 border-r-2 mobile:col-span-6">
-      <p class=" text-xs md:text-lg  ">Pave your path to career success by gaining a professional Google certificate
+      <p class=" text-xs md:text-lg dark:text-white ">Pave your path to career success by gaining a professional Google
+        certificate
         with the support of C4U</p>
     </div>
-    <div class="px-4 md:col-span-3 border-r-2 mobile:col-span-6">
+    <div class="px-4 md:col-span-3 border-r-2 mobile:col-span-6 ">
       <img src="assets/Google.png" alt="" class="">
     </div>
-    <div class="px-4 border-r-2 md:col-span-3 mobile:col-span-6">
+    <div class="px-4 border-r-2 md:col-span-3 mobile:col-span-6 dark:bg-white/55">
       <img src="assets/Work & Pensions.png" alt="">
     </div>
-    <div class="px-4 mobile:col-span-6 md:col-span-3">
+    <div class="px-4 mobile:col-span-6 md:col-span-3 ">
       <img src="assets/c4u full logo_2022 1.png" alt="">
     </div>
   </section>
@@ -140,8 +143,8 @@
     <!-- set 2 -->
     <section class="sub-section">
       <div>
-        <div>
-          <img src="assets/IT_social 1.png" alt="" class="p-4">
+        <div class="dark:rounded-md">
+          <img src="assets/IT_social 1.png" alt="" class="p-4 ">
         </div>
         <h2 class="mb-5 border-b pb-2 border-[#F9CCC7]">Skills you will gain</h2>
         <div class="flex flex-wrap gap-2">
@@ -166,7 +169,7 @@
   </section>
 
   <!--job Certificate section-->
-  <section class="main-section">
+  <section class="main-section ">
     <!-- set 01 -->
     <section class="sub-section w-full">
       <div>
@@ -228,7 +231,8 @@
   </section>
 
   <!--5 Courses Section-->
-  <section class="container mx-auto mb- relative flex bg-white items-start justify-center">
+  <section
+    class="container mx-auto mb- relative flex bg-white items-start justify-center dark:bg-gray-900 dark:text-white">
     <!-- 1 -->
     <div class="basis-3/4">
       <h1 class="font-bold md:text-3xl p-4 mb-8 ">There are 5 Courses in this Professional
@@ -277,7 +281,13 @@
       <img src="assets/course-img/course-5.png" alt="" id="course-5">
     </div>
   </section>
+  <script>
+    const htmlTag = document.getElementById("html-tag");
+    document.getElementById("switch").addEventListener("click", function () {
+      htmlTag.classList.toggle("dark");
+    });
 
+  </script>
 
 </body>
 

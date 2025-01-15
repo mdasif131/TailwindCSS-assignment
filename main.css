@@ -21,9 +21,9 @@
     @apply container mx-auto px-4 md:px-8 py-4 md:py-8 grid content-center grid-cols-12 gap-4;
   }
   .sub-section {
-    @apply shadow-md shadow-black/30 bg-white md:col-span-6 col-span-12 border px-4 py-6 rounded-lg mx-auto;
+    @apply shadow-md shadow-black/30 bg-white md:col-span-6 col-span-12 border px-4 py-6 rounded-lg mx-auto dark:bg-gray-900 dark:text-white;
   }
   .course-btn {
-    @apply text-xs text-[#2D3142] hover:bg-[#00FF84] border px-4 py-2 rounded-full hover:translate-x-1 hover:translate-y-1 border-[#00FF84] font-bold transition-all duration-300;
+    @apply text-xs text-[#2D3142] hover:bg-[#00FF84] border px-4 py-2 rounded-full hover:translate-x-1 hover:translate-y-1 border-[#00FF84] font-bold transition-all duration-300 dark:text-white dark:hover:text-black;
   }
 }
