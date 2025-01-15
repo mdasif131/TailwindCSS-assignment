@@ -26,4 +26,14 @@
   .course-btn {
     @apply text-xs text-[#2D3142] hover:bg-[#00FF84] border px-4 py-2 rounded-full hover:translate-x-1 hover:translate-y-1 border-[#00FF84] font-bold transition-all duration-300 dark:text-white dark:hover:text-black;
   }
+
+   .footer-content {
+    @apply flex justify-evenly items-center flex-wrap text-xs mt-[4%] dark:text-white;
+  }
+  .footer-columuns {
+    @apply flex flex-col space-y-3 ;
+  }
+  .footer-a {
+    @apply hover:text-[#F44335] transition-all duration-300;
+  }
 }
